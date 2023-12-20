@@ -1,0 +1,7 @@
+#begin-btn {
+    border: solid grey;
+    border-radius: 10%;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}

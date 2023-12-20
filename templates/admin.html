@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Автомастерская</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/admin.css">
+</head>
+<body>
+    <div id="page">
+        <div id="main">
+            <header>
+                <div id="h1-container">
+                    <h1>Админ панель</h1>
+                </div>
+                <hr>
+                <nav>
+                    <a class="nav-link" href="/">Главная</a>
+                    <a class="nav-link" href="/lessons">Обучающие материалы</a>
+                    <a class="nav-link" href="/profile">Профиль</a>
+                    <a class="nav-link" href="/feedback">Обратная связь</a>
+                </nav>
+                <hr>
+            </header>
+            <div class="forms">
+                <div class="form">
+                    <h2>Удаление материала</h2>
+                    <input name="lessonId" type="text" placeholder="Айди учебного материала">
+                    <button onclick="deleteLesson()">Удалить</input>
+                </div>
+            </div>
+            <div class="form">
+                <h2>Создание материала</h2>
+                <input name="lessonName" type="text" placeholder="Название учебного материала">
+                <input name="lessonDesc" type="text" placeholder="Описание учебного материала">
+                <textarea name="lessonContent" rows="20" cols="80" placeholder="Контент материала"></textarea>
+                <button onclick="createLesson()">Создать</input>
+            </div>
+        </div>
+    </div>
+    
+    <script src="../static/scripts/admin.js"></script>
+</body>
+</html>

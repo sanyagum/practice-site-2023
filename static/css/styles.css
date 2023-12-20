@@ -1,0 +1,30 @@
+body {
+    margin: 0 auto;
+}
+
+#page {
+    margin: 0 20vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#page {
+    height: 100vh;
+    background-color: #ABABAB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#main {
+    padding: 0 1%;
+    height: 100wh;
+}
+
+#h1-container {
+    display: flex;
+    justify-content: center;
+}
